@@ -29,9 +29,8 @@ public class Challenge1 {
                 System.out.println(palabra);
             }
         }
+        System.out.println("----------Usando Programacion Funcional--------------");
 
-        System.out.println("----------Usando Programacion Funcional-------------");
-        
         List<String> resultadoFuncional = List.of(palabras).stream()
                 .filter(p -> p.length() > 5)
                 .map(String::toUpperCase)
